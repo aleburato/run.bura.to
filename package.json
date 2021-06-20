@@ -12,12 +12,13 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "start": "eleventy --serve",
+    "start": "rimraf dist && eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettify": "prettier src/**/*.{js,scss} --write"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "prettier": "2.3.1"
+    "prettier": "2.3.1",
+    "rimraf": "2.7.1"
   }
 }
