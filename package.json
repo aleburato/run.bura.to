@@ -1,0 +1,23 @@
+{
+  "name": "run-bura-to",
+  "version": "0.0.1",
+  "description": "A personal blog on running, made with gatsbyjs",
+  "author": "Alessandro Burato <alessandro.burato@outlook.com>",
+  "homepage": "https://cogito.ergo.run",
+  "keywords": [
+    "blog",
+    "running",
+    "11ty"
+  ],
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier src/**/*.{js,scss} --write"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "prettier": "2.3.1"
+  }
+}
