@@ -1,7 +1,7 @@
 ---
 title: "Le basi: come"
 date: "2019-06-10"
-featuredImage: "./holger-link-724884-unsplash.jpg"
+featuredImage: "featured.jpg"
 featuredImageDesc: "(foto di Holger Link su Unsplash)"
 ---
 

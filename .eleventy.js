@@ -7,18 +7,12 @@ const config = {
 };
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setTemplateFormats([
-    "md",
-    "jpg",
-    "png",
-    "webp", // css is not yet a recognized template extension in Eleventy
-  ]);
-
   const publicDir = `${config.dir.input}/public`;
+
   // The following copies the content of "public" to the site root (`/`)
   eleventyConfig.addPassthroughCopy({ [publicDir]: "/" });
 
-  //
+  // need to do this as the default 'slug' eleventy filter leaves ':' inside the slug
   const slugify = require("slugify");
   eleventyConfig.addFilter("slug", (input) =>
     // @ts-ignore
@@ -28,6 +22,13 @@ module.exports = function (eleventyConfig) {
       lower: true,
     })
   );
+
+  // co-locate page assets
+  const pageAssetsPlugin = require("eleventy-plugin-page-assets");
+  eleventyConfig.addPlugin(pageAssetsPlugin, {
+    postsMatching: "src/posts/**/*.md",
+    mode: "directory",
+  });
 
   return config;
 };
