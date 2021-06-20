@@ -1,5 +1,5 @@
 {
   "layout": "base.liquid",
-  "permalink": "posts/{{ title | slug }}_{{ page.date | date: '%Y%m%d' }}/",
+  "permalink": "{{ page.date | date: '%Y/%m' }}/{{ title | slug }}/",
   "tags": ["posts"]
 }

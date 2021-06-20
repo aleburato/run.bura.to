@@ -1,6 +1,5 @@
 ---
 title: This is my first post
-date: 2021-01-31
 ---
 
 Meow in empty room. Stare at invisible bug on ceiling. Stand
