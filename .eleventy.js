@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
   // co-locate page assets
   const pageAssetsPlugin = require("eleventy-plugin-page-assets");
   eleventyConfig.addPlugin(pageAssetsPlugin, {
-    postsMatching: "src/posts/**/*.md",
+    postsMatching: "src/content/**/*.md",
     mode: "directory",
   });
 

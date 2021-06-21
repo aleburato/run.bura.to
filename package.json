@@ -13,6 +13,7 @@
   "private": true,
   "scripts": {
     "start": "rimraf dist && eleventy --serve",
+    "build": "rimraf dist && eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettify": "prettier src/**/*.{js,scss} --write"
   },
