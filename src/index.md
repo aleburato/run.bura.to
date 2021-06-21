@@ -10,5 +10,5 @@ Not to brag, but it's pretty great. Weeee 👋
 
 ## [{{ post.data.title }}]({{ post.url }})
 
-<time>{{ post.data.date | date: "%B %d, %Y" }}</time>
+<time>{{ post.data.page.date | date: "%B %d, %Y" }}</time>
 {% endfor %}

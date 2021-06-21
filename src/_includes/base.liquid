@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="it">
+  <head>
+    <title>Un blog sull’inevitabilità del correre</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/styles/index.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <title>Un blog sull’inevitabilità del correre</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="/styles/index.css" rel="stylesheet" />
-</head>
-
-<body>
-  {% include nav.liquid %}
-  {{ content }}
-</body>
-
+  <body>
+    <div class="layout-container">
+      {% include nav.liquid %}
+      {{ content }}
+    </div>
+  </body>
 </html>

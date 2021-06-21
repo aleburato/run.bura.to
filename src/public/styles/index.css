@@ -1,3 +1,13 @@
 @import url("./_variables.css");
 @import url("./_normalize.css");
 @import url("./_typography.css");
+
+.layout-container {
+  margin: 0 auto;
+  max-width: 43rem;
+  padding: 1.5rem 1rem;
+}
+
+img {
+  max-width: 100%;
+}

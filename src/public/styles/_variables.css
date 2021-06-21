@@ -8,7 +8,7 @@
     "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
     "Liberation Serif", Georgia, serif;
   --heading-font: var(--sys-font-family-sans);
-  --body-font: var(--sys-font-family-sans);
+  --body-font: var(--sys-font-family-serif);
   --code-font: var(--sys-font-family-mono);
 
   --heading-color: #000;

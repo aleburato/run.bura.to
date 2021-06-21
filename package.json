@@ -1,7 +1,7 @@
 {
   "name": "run-bura-to",
   "version": "0.0.1",
-  "description": "A personal blog on running, made with gatsbyjs",
+  "description": "A personal blog on running, made with 11ty",
   "author": "Alessandro Burato <alessandro.burato@outlook.com>",
   "homepage": "https://cogito.ergo.run",
   "keywords": [
