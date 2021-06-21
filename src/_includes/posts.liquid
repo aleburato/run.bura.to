@@ -4,6 +4,8 @@ layout: base
 
 <h1>{{ title }}</h1>
 
-<img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+{% if featuredImage %}
+  <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+{% endif %}
 
 {{ content }}
