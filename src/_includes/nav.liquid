@@ -1,3 +1,10 @@
 <nav>
   <a href="/">Home</a>
+
+  {% for pg in collections.pages %}
+
+  <a href="{{ pg.url }}">{{ pg.data.title }}</a>
+
+  {% endfor %}
+
 </nav>

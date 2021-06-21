@@ -1,0 +1,5 @@
+{
+  "layout": "base.liquid",
+  "permalink": "{{ title | slug }}/",
+  "tags": ["pages"]
+}
